@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="Sign-upContainer">
+        <header class="header">
+            <div class="left-header">
+                Header
+            </div>
+            <div class="right-header">
+                <a href="./index.html" id="signupLink"><h3>Signup</h3></a>
+                <a href="./profile.html" id="profileLink"><h3>Profile</h3></a>
+            </div>
+        </header>
+        <main class="signup-container">
+            <h1>Signup</h1>
+            <div class="input-values"><label for="full-name-input">Full name</label>
+                <input type="text" id="full-name-input" class="input" name="fullname">
+            </div>
+
+            <div class="input-values"> <label for="email-input">Email</label>
+                <input type="text" id="email-input" class="input" name="email">
+            </div>
+
+
+            <div class="input-values"> <label for="password-input">Password</label>
+                <input type="text" class="input" id="password-input">
+            </div>
+
+            <div class=input-values><label for="confirm-password">Confirm Password</label>
+                <input type="text" class="input" id="confirm-password">
+            </div>
+
+            <div>
+                <div id="error"></div>
+
+                <button id="Sign-up-btn">Signup</button>
+            </div>
+
+
+        </main>
+
+
+
+    </div>
+    <div id="login-container">
+        <header class="header">
+            <div class="left-header">
+                Header
+            </div>
+            <div class="right-header">
+                <a href="./index.html" id="signupLink"><h3>Signup</h3></a>
+                <a href="./profile.html" id="profileLink"><h3>Profile</h3></a>
+            </div>
+        </header>
+        <main class="login-container">
+            <h4>Profile</h4>
+            <div class="login-values"><label for="login-fullname">Full Name: </label>
+                <input type="text" id="login-fullname" class="login-input" disabled>
+            </div>
+            <div class="login-values"><label for="login-Email">Email : </label>
+                <input type="text" id="login-EMail" class="login-input" disabled>
+            </div>
+            <div class="login-values"><label for="login-password">Password : </label>
+                <input type="text" id="login-password" class="login-input" disabled>
+            </div>
+            <button id="logout-btn">Logout</button>
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
